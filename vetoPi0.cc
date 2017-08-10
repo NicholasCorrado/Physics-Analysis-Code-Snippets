@@ -11,10 +11,8 @@
 
       if ( gam_id == mdst_gam_1.get_ID() || gam_id == mdst_gam_2.get_ID() ) 
         m_count_gam_from_pi0++;
-	      return 1;   
-      }
-      else {
-	      return 0;
+	      return 1;
       }
     }
+    return 0;
   }
