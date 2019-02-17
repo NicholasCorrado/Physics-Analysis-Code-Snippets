@@ -1,4 +1,4 @@
-Helix getChargedTrackHelixAtIP( const Mdst_charged &chrg, int mass_hypothesis) {
+Helix Analysis::getChargedTrackHelixAtIP( const Mdst_charged &chrg, int mass_hypothesis) {
 	//    cout << "getPionHelixAtIP" << endl;
 
 	const Mdst_trk_fit& trkFit = chrg.trk().mhyp(mass_hypothesis);
